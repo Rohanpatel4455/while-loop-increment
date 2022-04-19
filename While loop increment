@@ -1,0 +1,16 @@
+#include <stdio.h>
+main()
+{
+	int i, num;
+	int facto=1;
+	printf("enter a number:",num);
+	scanf("%d",&num);
+	i=1;
+	if(num>1)  //positive num
+	while(i<=num)
+	{
+		facto=facto+i;
+		i++;
+		}
+		printf("\n factorial of a number %d=%d",facto);
+		}
